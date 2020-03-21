@@ -144,7 +144,7 @@ $getpre = number_format(($tot / $blk) * 100, 2);
 	if($ga['balance'] >= $ese){
 			echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 			$getpre = number_format(($tot / $blk) * 100, 2);
-			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
+			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\n\n";
 			exit();
 	}
 	if($ga['error'] == 1){
@@ -168,7 +168,7 @@ $getpre = number_format(($tot / $blk) * 100, 2);
 		if($ga['balance'] >= $ese){
 			echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 			$getpre = number_format(($tot / $blk) * 100, 2);
-			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
+			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\n\n";
 			exit();
 		}
 		if($ga['error'] == 1){
@@ -193,7 +193,7 @@ $getpre = number_format(($tot / $blk) * 100, 2);
 		if($ga['balance'] >= $ese){
 			echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 			$getpre = number_format(($tot / $blk) * 100, 2);
-			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
+			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\n\n";
 			exit();
 		}
 		if($ga['error'] == 1){
@@ -217,7 +217,7 @@ $getpre = number_format(($tot / $blk) * 100, 2);
 					if($ga['balance'] >= $ese){
 						echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 						$getpre = number_format(($tot / $blk) * 100, 2);
-						echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
+						echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\n\n";
 						exit();
 					}
 					if($ga['error'] == 1){
@@ -241,7 +241,7 @@ $getpre = number_format(($tot / $blk) * 100, 2);
 							if($ga['balance'] >= $ese){
 								echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 								$getpre = number_format(($tot / $blk) * 100, 2);
-								echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
+								echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\n\n";
 								exit();
 							}
 							if($ga['error'] == 1){
@@ -266,7 +266,7 @@ $getpre = number_format(($tot / $blk) * 100, 2);
 							if($ga['balance'] >= $ese){
 								echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 								$getpre = number_format(($tot / $blk) * 100, 2);
-								echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
+								echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\n\n";
 								exit();
 							}
 							if($ga['error'] == 1){
