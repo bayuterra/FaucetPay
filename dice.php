@@ -139,6 +139,7 @@ $prof = number_format((float)$prof - $bet,8);
 $predic = $pr;
 $send = "play=true&coin=DOGE&client_seed=RUUFuGsc5lQPgMXdOVo&bet_amt=".$bet."&profit=".$prof."&payout=".$gp."&winning_chance=".$wc."&prediction=".$predic;
 $ga = json_decode(dices($send, $coki),true);
+$tot = number_format($ga['balance'] - $blk, 8);
 $getpre = number_format(($tot / $blk) * 100, 2);
 	if($ga['balance'] >= $ese){
 			echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
