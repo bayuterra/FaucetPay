@@ -139,6 +139,7 @@ $prof = number_format((float)$prof - $bet,8);
 $predic = $pr;
 $send = "play=true&coin=DOGE&client_seed=RUUFuGsc5lQPgMXdOVo&bet_amt=".$bet."&profit=".$prof."&payout=".$gp."&winning_chance=".$wc."&prediction=".$predic;
 $ga = json_decode(dices($send, $coki),true);
+$getpre = number_format(($tot / $blk) * 100, 2);
 	if($ga['balance'] >= $ese){
 			echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 			echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
@@ -208,6 +209,7 @@ $ga = json_decode(dices($send, $coki),true);
 					$prof = number_format((float)$prof - $bet,8);
 					$send = "play=true&coin=DOGE&client_seed=RUUFuGsc5lQPgMXdOVo&bet_amt=".$bet."&profit=".$prof."&payout=".$gp."&winning_chance=".$wc."&prediction=1";
 					$ga = json_decode(dices($send, $coki),true);
+					$getpre = number_format(($tot / $blk) * 100, 2);
 					if($ga['balance'] >= $ese){
 						echo"\nHappy Today You Are The Lucky One\nCome back tomorrow, don't push too hard\n";
 						echo"\nPrevious balance : ".$blk." -> Balance Now : ".$ga['balance']."\nWin Percent Balance : ".$getpre."\n\n";
